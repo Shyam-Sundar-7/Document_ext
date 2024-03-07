@@ -1,0 +1,8 @@
+pytesseract
+opencv-python
+python-docx
+langchain_openai
+langchain
+pydantic
+python-dotenv
+streamlit
