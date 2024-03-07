@@ -11,6 +11,11 @@
 3. [one_shot_prompting.ipynb](one_shot_prompting.ipynb):
    - This notebook utilizes OpenAI chat completion with a prompting approach. It involves three roles: the system (acting as the NLP extractor), the assistance (providing examples), and the user (providing input text). The notebook compares the results obtained from this approach with those from the zero-shot prompting method.
 
+To make the it as a running application, I have implemented the streamlit application.
+Here helper_function.py contains all the functions necessary to be included in the main app.py
+This is to make sure the app.py is relaible to read and short.
+
+
 ## Running the Streamlit Application
 
 To run the Streamlit application:
