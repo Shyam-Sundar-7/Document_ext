@@ -17,7 +17,7 @@ To run the Streamlit application:
 
 1. Clone the repository:
    ```
-   git clone [repository_url]
+   git clone https://github.com/Shyam-Sundar-7/Document_ext.git
    ```
 
 2. Create a virtual environment and install the dependencies from requirements.txt.
@@ -31,7 +31,7 @@ To run the Streamlit application:
 3. Store the OpenAI API key in a .env file (create it if it does not exist):
 
     ```
-    OPENAI_API_KEY=your_api_key_here
+    OPENAI_API_KEY=sk-**************************************
     ```
 
 4. Run the Streamlit application using the following command:
@@ -39,3 +39,6 @@ To run the Streamlit application:
     ```
     streamlit run app.py
     ```
+
+# Streamlit Local execution video:
+
