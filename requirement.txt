@@ -6,3 +6,7 @@ langchain
 pydantic
 python-dotenv
 streamlit
+fastapi
+uvicorn[standard]
+ydata-profiling
+python-multipart

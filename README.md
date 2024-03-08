@@ -47,3 +47,18 @@ To run the Streamlit application:
 
 # Streamlit Local execution video:
 [Streamlit](https://github.com/Shyam-Sundar-7/Document_ext/assets/101181076/b7c3dc7f-da64-4e54-a158-2bbdddca0a3d)
+
+
+# Run through FAST_API
+
+Follow the streamlit steps from step 1 to step 3
+4. Run the FastAPI server:
+    ```
+    uvicorn fastpi_app:app --reload
+    ```
+   This will start the server on http://127.0.0.1:8000 by default. 
+
+5. Use an API client (such as cURL or Postman) to send POST requests to the `/extract_components/` endpoint with the file to extract components from. (OR)
+   Use the http://127.0.0.1:8000/docs to try `/extract_components/` to get the components.
+
+6. Receive the extracted components as plain text in the response.
