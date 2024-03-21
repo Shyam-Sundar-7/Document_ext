@@ -1,4 +1,4 @@
-# Document Extraction - USEReady Assignment
+# Document Extraction 
 
 ## Table of Contents
 
